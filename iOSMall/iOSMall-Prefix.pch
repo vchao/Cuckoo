@@ -1,0 +1,22 @@
+//
+//  iOSMall-Prefix.pch
+//  iOSMall
+//
+//  Created by 任维超 on 2016/12/30.
+//  Copyright © 2016年 vchao. All rights reserved.
+//
+
+#ifndef iOSMall_Prefix_pch
+#define iOSMall_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "DefaultDefine.h"
+
+#ifdef DEBUG
+#	define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define DLog(...)
+#endif
+
+#endif /* iOSMall_Prefix_pch */

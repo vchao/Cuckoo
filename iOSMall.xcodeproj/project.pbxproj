@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873FBE3B1E1505B60041A40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE3A1E1505B60041A40C /* main.m */; };
+		873FBE3E1E1505B60041A40C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE3D1E1505B60041A40C /* AppDelegate.m */; };
+		873FBE411E1505B60041A40C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE401E1505B60041A40C /* ViewController.m */; };
+		873FBE441E1505B60041A40C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873FBE421E1505B60041A40C /* Main.storyboard */; };
+		873FBE461E1505B60041A40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873FBE451E1505B60041A40C /* Assets.xcassets */; };
+		873FBE491E1505B60041A40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873FBE471E1505B60041A40C /* LaunchScreen.storyboard */; };
+		873FBE541E1505B60041A40C /* iOSMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE531E1505B60041A40C /* iOSMallTests.m */; };
+		873FBE5F1E1505B60041A40C /* iOSMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE5E1E1505B60041A40C /* iOSMallUITests.m */; };
+		877BB5241E1634BC0071AF62 /* CMHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB5231E1634BC0071AF62 /* CMHttpClient.m */; };
+		877BB5271E1635090071AF62 /* CMNetError.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB5261E1635090071AF62 /* CMNetError.m */; };
+		877BB52C1E1638E10071AF62 /* CMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB52B1E1638E10071AF62 /* CMConfigure.m */; };
+		877BB5331E16425D0071AF62 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877BB5321E16425D0071AF62 /* UserNotifications.framework */; };
+		877BB5351E16427A0071AF62 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877BB5341E16427A0071AF62 /* NotificationCenter.framework */; };
+		877BB5381E1645DA0071AF62 /* CMNetManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB5371E1645DA0071AF62 /* CMNetManger.m */; };
+		E5DA46FF21411F8AD7BD1117 /* libPods-iOSMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9ACB7F37D0EF7F9DDE4AA /* libPods-iOSMall.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873FBE501E1505B60041A40C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873FBE2E1E1505B60041A40C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873FBE351E1505B60041A40C;
+			remoteInfo = iOSMall;
+		};
+		873FBE5B1E1505B60041A40C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873FBE2E1E1505B60041A40C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873FBE351E1505B60041A40C;
+			remoteInfo = iOSMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		873FBE361E1505B60041A40C /* iOSMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873FBE3A1E1505B60041A40C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873FBE3C1E1505B60041A40C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		873FBE3D1E1505B60041A40C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		873FBE3F1E1505B60041A40C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		873FBE401E1505B60041A40C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		873FBE431E1505B60041A40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873FBE451E1505B60041A40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873FBE481E1505B60041A40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873FBE4A1E1505B60041A40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873FBE4F1E1505B60041A40C /* iOSMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		873FBE531E1505B60041A40C /* iOSMallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMallTests.m; sourceTree = "<group>"; };
+		873FBE551E1505B60041A40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873FBE5A1E1505B60041A40C /* iOSMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		873FBE5E1E1505B60041A40C /* iOSMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMallUITests.m; sourceTree = "<group>"; };
+		873FBE601E1505B60041A40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877BB5221E1634BC0071AF62 /* CMHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMHttpClient.h; path = CMNetWork/CMHttpClient.h; sourceTree = "<group>"; };
+		877BB5231E1634BC0071AF62 /* CMHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMHttpClient.m; path = CMNetWork/CMHttpClient.m; sourceTree = "<group>"; };
+		877BB5251E1635090071AF62 /* CMNetError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMNetError.h; path = CMNetWork/CMNetError.h; sourceTree = "<group>"; };
+		877BB5261E1635090071AF62 /* CMNetError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMNetError.m; path = CMNetWork/CMNetError.m; sourceTree = "<group>"; };
+		877BB52A1E1638E10071AF62 /* CMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMConfigure.h; path = CMTools/CMConfigure/CMConfigure.h; sourceTree = "<group>"; };
+		877BB52B1E1638E10071AF62 /* CMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMConfigure.m; path = CMTools/CMConfigure/CMConfigure.m; sourceTree = "<group>"; };
+		877BB52E1E1639C60071AF62 /* DefaultDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DefaultDefine.h; path = Common/DefaultDefine.h; sourceTree = "<group>"; };
+		877BB5311E163C2C0071AF62 /* iOSMall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSMall-Prefix.pch"; sourceTree = "<group>"; };
+		877BB5321E16425D0071AF62 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		877BB5341E16427A0071AF62 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		877BB5361E1645DA0071AF62 /* CMNetManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMNetManger.h; path = CMNetWork/CMNetManger.h; sourceTree = "<group>"; };
+		877BB5371E1645DA0071AF62 /* CMNetManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMNetManger.m; path = CMNetWork/CMNetManger.m; sourceTree = "<group>"; };
+		98E9ACB7F37D0EF7F9DDE4AA /* libPods-iOSMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C2D7D47F8CD1E5136B1C0C /* Pods-iOSMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMall/Pods-iOSMall.debug.xcconfig"; sourceTree = "<group>"; };
+		E64F41E801640FC34F542326 /* Pods-iOSMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMall/Pods-iOSMall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873FBE331E1505B60041A40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877BB5351E16427A0071AF62 /* NotificationCenter.framework in Frameworks */,
+				877BB5331E16425D0071AF62 /* UserNotifications.framework in Frameworks */,
+				E5DA46FF21411F8AD7BD1117 /* libPods-iOSMall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE4C1E1505B60041A40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE571E1505B60041A40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D9F488C4275CEA67172AB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3C2D7D47F8CD1E5136B1C0C /* Pods-iOSMall.debug.xcconfig */,
+				E64F41E801640FC34F542326 /* Pods-iOSMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		873FBE2D1E1505B60041A40C = {
+			isa = PBXGroup;
+			children = (
+				873FBE381E1505B60041A40C /* iOSMall */,
+				873FBE521E1505B60041A40C /* iOSMallTests */,
+				873FBE5D1E1505B60041A40C /* iOSMallUITests */,
+				873FBE371E1505B60041A40C /* Products */,
+				24D9F488C4275CEA67172AB5 /* Pods */,
+				D0D44887FD12187C31AD826A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		873FBE371E1505B60041A40C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873FBE361E1505B60041A40C /* iOSMall.app */,
+				873FBE4F1E1505B60041A40C /* iOSMallTests.xctest */,
+				873FBE5A1E1505B60041A40C /* iOSMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873FBE381E1505B60041A40C /* iOSMall */ = {
+			isa = PBXGroup;
+			children = (
+				877BB52D1E16397E0071AF62 /* Common */,
+				877BB5281E16388D0071AF62 /* CMTools */,
+				873FBE3C1E1505B60041A40C /* AppDelegate.h */,
+				873FBE3D1E1505B60041A40C /* AppDelegate.m */,
+				873FBE3F1E1505B60041A40C /* ViewController.h */,
+				873FBE401E1505B60041A40C /* ViewController.m */,
+				873FBE421E1505B60041A40C /* Main.storyboard */,
+				873FBE451E1505B60041A40C /* Assets.xcassets */,
+				873FBE471E1505B60041A40C /* LaunchScreen.storyboard */,
+				873FBE4A1E1505B60041A40C /* Info.plist */,
+				873FBE391E1505B60041A40C /* Supporting Files */,
+			);
+			path = iOSMall;
+			sourceTree = "<group>";
+		};
+		873FBE391E1505B60041A40C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873FBE3A1E1505B60041A40C /* main.m */,
+				877BB5311E163C2C0071AF62 /* iOSMall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873FBE521E1505B60041A40C /* iOSMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				873FBE531E1505B60041A40C /* iOSMallTests.m */,
+				873FBE551E1505B60041A40C /* Info.plist */,
+			);
+			path = iOSMallTests;
+			sourceTree = "<group>";
+		};
+		873FBE5D1E1505B60041A40C /* iOSMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				873FBE5E1E1505B60041A40C /* iOSMallUITests.m */,
+				873FBE601E1505B60041A40C /* Info.plist */,
+			);
+			path = iOSMallUITests;
+			sourceTree = "<group>";
+		};
+		877BB5211E16344B0071AF62 /* CMNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				877BB5221E1634BC0071AF62 /* CMHttpClient.h */,
+				877BB5231E1634BC0071AF62 /* CMHttpClient.m */,
+				877BB5251E1635090071AF62 /* CMNetError.h */,
+				877BB5261E1635090071AF62 /* CMNetError.m */,
+				877BB5361E1645DA0071AF62 /* CMNetManger.h */,
+				877BB5371E1645DA0071AF62 /* CMNetManger.m */,
+			);
+			name = CMNetWork;
+			sourceTree = "<group>";
+		};
+		877BB5281E16388D0071AF62 /* CMTools */ = {
+			isa = PBXGroup;
+			children = (
+				877BB5291E1638A30071AF62 /* CMConfigure */,
+				877BB5211E16344B0071AF62 /* CMNetWork */,
+			);
+			name = CMTools;
+			sourceTree = "<group>";
+		};
+		877BB5291E1638A30071AF62 /* CMConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				877BB52A1E1638E10071AF62 /* CMConfigure.h */,
+				877BB52B1E1638E10071AF62 /* CMConfigure.m */,
+			);
+			name = CMConfigure;
+			sourceTree = "<group>";
+		};
+		877BB52D1E16397E0071AF62 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				877BB52E1E1639C60071AF62 /* DefaultDefine.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D0D44887FD12187C31AD826A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877BB5341E16427A0071AF62 /* NotificationCenter.framework */,
+				877BB5321E16425D0071AF62 /* UserNotifications.framework */,
+				98E9ACB7F37D0EF7F9DDE4AA /* libPods-iOSMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873FBE351E1505B60041A40C /* iOSMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873FBE631E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMall" */;
+			buildPhases = (
+				D2F7AFBD7390D719A55D0DD0 /* [CP] Check Pods Manifest.lock */,
+				873FBE321E1505B60041A40C /* Sources */,
+				873FBE331E1505B60041A40C /* Frameworks */,
+				873FBE341E1505B60041A40C /* Resources */,
+				AC99232386C81E50DA04B7D9 /* [CP] Embed Pods Frameworks */,
+				40EB3BF8381A6E1512D685DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMall;
+			productName = iOSMall;
+			productReference = 873FBE361E1505B60041A40C /* iOSMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		873FBE4E1E1505B60041A40C /* iOSMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873FBE661E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMallTests" */;
+			buildPhases = (
+				873FBE4B1E1505B60041A40C /* Sources */,
+				873FBE4C1E1505B60041A40C /* Frameworks */,
+				873FBE4D1E1505B60041A40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873FBE511E1505B60041A40C /* PBXTargetDependency */,
+			);
+			name = iOSMallTests;
+			productName = iOSMallTests;
+			productReference = 873FBE4F1E1505B60041A40C /* iOSMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		873FBE591E1505B60041A40C /* iOSMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873FBE691E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMallUITests" */;
+			buildPhases = (
+				873FBE561E1505B60041A40C /* Sources */,
+				873FBE571E1505B60041A40C /* Frameworks */,
+				873FBE581E1505B60041A40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873FBE5C1E1505B60041A40C /* PBXTargetDependency */,
+			);
+			name = iOSMallUITests;
+			productName = iOSMallUITests;
+			productReference = 873FBE5A1E1505B60041A40C /* iOSMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873FBE2E1E1505B60041A40C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = vchao;
+				TargetAttributes = {
+					873FBE351E1505B60041A40C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L5KX2LN58P;
+						ProvisioningStyle = Automatic;
+					};
+					873FBE4E1E1505B60041A40C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 873FBE351E1505B60041A40C;
+					};
+					873FBE591E1505B60041A40C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 873FBE351E1505B60041A40C;
+					};
+				};
+			};
+			buildConfigurationList = 873FBE311E1505B60041A40C /* Build configuration list for PBXProject "iOSMall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873FBE2D1E1505B60041A40C;
+			productRefGroup = 873FBE371E1505B60041A40C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873FBE351E1505B60041A40C /* iOSMall */,
+				873FBE4E1E1505B60041A40C /* iOSMallTests */,
+				873FBE591E1505B60041A40C /* iOSMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873FBE341E1505B60041A40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873FBE491E1505B60041A40C /* LaunchScreen.storyboard in Resources */,
+				873FBE461E1505B60041A40C /* Assets.xcassets in Resources */,
+				873FBE441E1505B60041A40C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE4D1E1505B60041A40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE581E1505B60041A40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40EB3BF8381A6E1512D685DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMall/Pods-iOSMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC99232386C81E50DA04B7D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMall/Pods-iOSMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F7AFBD7390D719A55D0DD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873FBE321E1505B60041A40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877BB52C1E1638E10071AF62 /* CMConfigure.m in Sources */,
+				877BB5241E1634BC0071AF62 /* CMHttpClient.m in Sources */,
+				873FBE411E1505B60041A40C /* ViewController.m in Sources */,
+				877BB5271E1635090071AF62 /* CMNetError.m in Sources */,
+				873FBE3E1E1505B60041A40C /* AppDelegate.m in Sources */,
+				877BB5381E1645DA0071AF62 /* CMNetManger.m in Sources */,
+				873FBE3B1E1505B60041A40C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE4B1E1505B60041A40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873FBE541E1505B60041A40C /* iOSMallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873FBE561E1505B60041A40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873FBE5F1E1505B60041A40C /* iOSMallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873FBE511E1505B60041A40C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873FBE351E1505B60041A40C /* iOSMall */;
+			targetProxy = 873FBE501E1505B60041A40C /* PBXContainerItemProxy */;
+		};
+		873FBE5C1E1505B60041A40C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873FBE351E1505B60041A40C /* iOSMall */;
+			targetProxy = 873FBE5B1E1505B60041A40C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		873FBE421E1505B60041A40C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873FBE431E1505B60041A40C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873FBE471E1505B60041A40C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873FBE481E1505B60041A40C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873FBE611E1505B60041A40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873FBE621E1505B60041A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873FBE641E1505B60041A40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C2D7D47F8CD1E5136B1C0C /* Pods-iOSMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L5KX2LN58P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMall/iOSMall-Prefix.pch";
+				INFOPLIST_FILE = iOSMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873FBE651E1505B60041A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64F41E801640FC34F542326 /* Pods-iOSMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L5KX2LN58P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMall/iOSMall-Prefix.pch";
+				INFOPLIST_FILE = iOSMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		873FBE671E1505B60041A40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMall.app/iOSMall";
+			};
+			name = Debug;
+		};
+		873FBE681E1505B60041A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMall.app/iOSMall";
+			};
+			name = Release;
+		};
+		873FBE6A1E1505B60041A40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSMall;
+			};
+			name = Debug;
+		};
+		873FBE6B1E1505B60041A40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuckoo.iOSMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873FBE311E1505B60041A40C /* Build configuration list for PBXProject "iOSMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873FBE611E1505B60041A40C /* Debug */,
+				873FBE621E1505B60041A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873FBE631E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873FBE641E1505B60041A40C /* Debug */,
+				873FBE651E1505B60041A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873FBE661E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873FBE671E1505B60041A40C /* Debug */,
+				873FBE681E1505B60041A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873FBE691E1505B60041A40C /* Build configuration list for PBXNativeTarget "iOSMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873FBE6A1E1505B60041A40C /* Debug */,
+				873FBE6B1E1505B60041A40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873FBE2E1E1505B60041A40C /* Project object */;
+}
