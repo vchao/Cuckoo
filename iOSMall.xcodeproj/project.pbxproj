@@ -15,6 +15,16 @@
 		873FBE491E1505B60041A40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873FBE471E1505B60041A40C /* LaunchScreen.storyboard */; };
 		873FBE541E1505B60041A40C /* iOSMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE531E1505B60041A40C /* iOSMallTests.m */; };
 		873FBE5F1E1505B60041A40C /* iOSMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE5E1E1505B60041A40C /* iOSMallUITests.m */; };
+		8740B8721E1BA2D1009CD7F3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8711E1BA2D1009CD7F3 /* CoreMedia.framework */; };
+		8740B8741E1BA2E5009CD7F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8731E1BA2E5009CD7F3 /* AudioToolbox.framework */; };
+		8740B8761E1BA2ED009CD7F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8751E1BA2ED009CD7F3 /* AVFoundation.framework */; };
+		8740B8781E1BA2F8009CD7F3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8771E1BA2F8009CD7F3 /* MobileCoreServices.framework */; };
+		8740B87A1E1BA300009CD7F3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8791E1BA300009CD7F3 /* ImageIO.framework */; };
+		8740B87C1E1BA320009CD7F3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B87B1E1BA320009CD7F3 /* libc++.tbd */; };
+		8740B87E1E1BA329009CD7F3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B87D1E1BA329009CD7F3 /* libz.tbd */; };
+		8740B8801E1BA339009CD7F3 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B87F1E1BA339009CD7F3 /* libstdc++.6.0.9.tbd */; };
+		8740B8821E1BA34B009CD7F3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8811E1BA34B009CD7F3 /* libsqlite3.tbd */; };
+		8740B8841E1BA35B009CD7F3 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8740B8831E1BA35B009CD7F3 /* libiconv.tbd */; };
 		877BB5241E1634BC0071AF62 /* CMHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB5231E1634BC0071AF62 /* CMHttpClient.m */; };
 		877BB5271E1635090071AF62 /* CMNetError.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB5261E1635090071AF62 /* CMNetError.m */; };
 		877BB52C1E1638E10071AF62 /* CMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 877BB52B1E1638E10071AF62 /* CMConfigure.m */; };
@@ -58,6 +68,16 @@
 		873FBE5A1E1505B60041A40C /* iOSMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		873FBE5E1E1505B60041A40C /* iOSMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMallUITests.m; sourceTree = "<group>"; };
 		873FBE601E1505B60041A40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8740B8711E1BA2D1009CD7F3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8740B8731E1BA2E5009CD7F3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8740B8751E1BA2ED009CD7F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8740B8771E1BA2F8009CD7F3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8740B8791E1BA300009CD7F3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8740B87B1E1BA320009CD7F3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8740B87D1E1BA329009CD7F3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8740B87F1E1BA339009CD7F3 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		8740B8811E1BA34B009CD7F3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8740B8831E1BA35B009CD7F3 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		877BB5221E1634BC0071AF62 /* CMHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMHttpClient.h; path = CMNetWork/CMHttpClient.h; sourceTree = "<group>"; };
 		877BB5231E1634BC0071AF62 /* CMHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMHttpClient.m; path = CMNetWork/CMHttpClient.m; sourceTree = "<group>"; };
 		877BB5251E1635090071AF62 /* CMNetError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMNetError.h; path = CMNetWork/CMNetError.h; sourceTree = "<group>"; };
@@ -80,6 +100,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8740B8841E1BA35B009CD7F3 /* libiconv.tbd in Frameworks */,
+				8740B8821E1BA34B009CD7F3 /* libsqlite3.tbd in Frameworks */,
+				8740B8801E1BA339009CD7F3 /* libstdc++.6.0.9.tbd in Frameworks */,
+				8740B87E1E1BA329009CD7F3 /* libz.tbd in Frameworks */,
+				8740B87C1E1BA320009CD7F3 /* libc++.tbd in Frameworks */,
+				8740B87A1E1BA300009CD7F3 /* ImageIO.framework in Frameworks */,
+				8740B8781E1BA2F8009CD7F3 /* MobileCoreServices.framework in Frameworks */,
+				8740B8761E1BA2ED009CD7F3 /* AVFoundation.framework in Frameworks */,
+				8740B8741E1BA2E5009CD7F3 /* AudioToolbox.framework in Frameworks */,
+				8740B8721E1BA2D1009CD7F3 /* CoreMedia.framework in Frameworks */,
 				877BB5351E16427A0071AF62 /* NotificationCenter.framework in Frameworks */,
 				877BB5331E16425D0071AF62 /* UserNotifications.framework in Frameworks */,
 				E5DA46FF21411F8AD7BD1117 /* libPods-iOSMall.a in Frameworks */,
@@ -221,6 +251,16 @@
 		D0D44887FD12187C31AD826A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8740B8831E1BA35B009CD7F3 /* libiconv.tbd */,
+				8740B8811E1BA34B009CD7F3 /* libsqlite3.tbd */,
+				8740B87F1E1BA339009CD7F3 /* libstdc++.6.0.9.tbd */,
+				8740B87D1E1BA329009CD7F3 /* libz.tbd */,
+				8740B87B1E1BA320009CD7F3 /* libc++.tbd */,
+				8740B8791E1BA300009CD7F3 /* ImageIO.framework */,
+				8740B8771E1BA2F8009CD7F3 /* MobileCoreServices.framework */,
+				8740B8751E1BA2ED009CD7F3 /* AVFoundation.framework */,
+				8740B8731E1BA2E5009CD7F3 /* AudioToolbox.framework */,
+				8740B8711E1BA2D1009CD7F3 /* CoreMedia.framework */,
 				877BB5341E16427A0071AF62 /* NotificationCenter.framework */,
 				877BB5321E16425D0071AF62 /* UserNotifications.framework */,
 				98E9ACB7F37D0EF7F9DDE4AA /* libPods-iOSMall.a */,
@@ -571,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L5KX2LN58P;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMall/iOSMall-Prefix.pch";
 				INFOPLIST_FILE = iOSMall/Info.plist;
@@ -588,6 +629,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L5KX2LN58P;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMall/iOSMall-Prefix.pch";
 				INFOPLIST_FILE = iOSMall/Info.plist;

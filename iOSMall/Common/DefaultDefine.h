@@ -60,4 +60,9 @@ static NSString * const kDevice_Type = @"2";
  */
 static NSString * const KLocationCity = @"KLocationCity";
 
+// 环信AppKey
+static NSString * const KEMAppKey = @"1151170103115434#cuckoomall";
+// 环信推送证书名称，和上传至环信后台的证书名称保持一致
+static NSString * const KEMApnsCertName = @"";
+
 #endif /* DefaultDefine_h */

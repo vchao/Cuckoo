@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Hyphenate/EMSDK.h>
 
 #define CMAppDelegater [AppDelegate sharedDelegate]
 

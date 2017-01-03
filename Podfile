@@ -7,4 +7,6 @@ pod 'Masonry'
 pod 'Reachability'
 pod 'SDWebImage'
 pod 'MJExtension'
+pod 'Hyphenate'
+pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
 end

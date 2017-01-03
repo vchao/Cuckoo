@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Hyphenate (3.2.2.2)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
@@ -24,6 +25,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Hyphenate
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -32,12 +34,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Hyphenate: cb5080bf131672085b9a56c733cb5a90198bb193
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 0f12e7bae579bab30bb401da34f3d956812a3331
+PODFILE CHECKSUM: 7b2bf6a8f21185b19fce31a859fed626e42d229e
 
 COCOAPODS: 1.1.1
