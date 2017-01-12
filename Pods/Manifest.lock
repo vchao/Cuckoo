@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Hyphenate (3.2.2.2)
+  - Hyphenate (3.2.3)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
@@ -22,6 +22,17 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - UMengUShare/Core (6.2.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.1)
+  - UMengUShare/Social/QQ (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.2.1):
+    - UMengUShare/Core
 
 DEPENDENCIES:
   - AFNetworking
@@ -31,16 +42,21 @@ DEPENDENCIES:
   - MJExtension
   - Reachability
   - SDWebImage
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Hyphenate: cb5080bf131672085b9a56c733cb5a90198bb193
+  Hyphenate: 81c2eb5c8303147f8aef70866811ec12a8b4dcf2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UMengUShare: 583ac067e747c66429d5063896da0e77c4fe7688
 
-PODFILE CHECKSUM: 7b2bf6a8f21185b19fce31a859fed626e42d229e
+PODFILE CHECKSUM: a86f4ed50c030952940dc281759f0e3b987467fa
 
 COCOAPODS: 1.1.1
