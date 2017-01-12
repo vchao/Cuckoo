@@ -10,6 +10,7 @@
 #import "CMHttpClient.h"
 #import <UserNotifications/UserNotifications.h>
 #import <UserNotifications/UNUserNotificationCenter.h>
+#import <UMSocialCore/UMSocialCore.h>
 
 @interface AppDelegate ()
 
@@ -19,7 +20,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //打开调试日志
+    [[UMSocialManager defaultManager] openLog:YES];
+    
+    //设置友盟appkey
+    [[UMSocialManager defaultManager] setUmSocialAppkey:@"587752cff29d980a74001a82"];
+    
+    //设置微信的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"wxdc1e388c3822c80b" appSecret:@"3baf1193c85774b3fd9d18447d76cab0" redirectURL:@"http://mobile.umeng.com/social"];
+    
+    
+    //设置分享到QQ互联的appKey和appSecret
+    // U-Share SDK为了兼容大部分平台命名，统一用appKey和appSecret进行参数设置，而QQ平台仅需将appID作为U-Share的appKey参数传进即可。
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@"1105946280"  appSecret:nil redirectURL:@"http://mobile.umeng.com/social"];
+    
+    //设置新浪的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"2275673557"  appSecret:@"ed06fa3e356ba05a491b4eacec9847a7" redirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    
     [self registerNotifacation];
     
     EMOptions *options = [EMOptions optionsWithAppkey:KEMAppKey];
@@ -29,6 +47,15 @@
     return YES;
 }
 
+// 支持所有iOS系统
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }
+    return result;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

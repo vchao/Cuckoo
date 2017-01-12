@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870820811E277E7000F66187 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870820801E277E7000F66187 /* SystemConfiguration.framework */; };
+		870820831E277E9A00F66187 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870820821E277E9A00F66187 /* CoreTelephony.framework */; };
 		873FBE3B1E1505B60041A40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE3A1E1505B60041A40C /* main.m */; };
 		873FBE3E1E1505B60041A40C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE3D1E1505B60041A40C /* AppDelegate.m */; };
 		873FBE411E1505B60041A40C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FBE401E1505B60041A40C /* ViewController.m */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870820801E277E7000F66187 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		870820821E277E9A00F66187 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		873FBE361E1505B60041A40C /* iOSMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873FBE3A1E1505B60041A40C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		873FBE3C1E1505B60041A40C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870820831E277E9A00F66187 /* CoreTelephony.framework in Frameworks */,
+				870820811E277E7000F66187 /* SystemConfiguration.framework in Frameworks */,
 				8740B8841E1BA35B009CD7F3 /* libiconv.tbd in Frameworks */,
 				8740B8821E1BA34B009CD7F3 /* libsqlite3.tbd in Frameworks */,
 				8740B8801E1BA339009CD7F3 /* libstdc++.6.0.9.tbd in Frameworks */,
@@ -251,6 +257,8 @@
 		D0D44887FD12187C31AD826A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				870820821E277E9A00F66187 /* CoreTelephony.framework */,
+				870820801E277E7000F66187 /* SystemConfiguration.framework */,
 				8740B8831E1BA35B009CD7F3 /* libiconv.tbd */,
 				8740B8811E1BA34B009CD7F3 /* libsqlite3.tbd */,
 				8740B87F1E1BA339009CD7F3 /* libstdc++.6.0.9.tbd */,
